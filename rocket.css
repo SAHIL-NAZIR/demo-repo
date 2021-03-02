@@ -1,0 +1,14 @@
+.Bigdiv{
+    box-shadow: 2px 3px gray;
+    margin-left: 113px;
+    height: fit-content;
+    width: 200px;
+    background-color:transparent;
+    float: left;
+   border: 0px solid black;
+}
+
+.Sdiv{
+    width: 120px;
+    margin-left: 40px;
+}

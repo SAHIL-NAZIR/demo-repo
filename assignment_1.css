@@ -1,0 +1,93 @@
+body{
+    margin: auto;
+}
+
+#Filter_division{
+    box-shadow: 2px 3px gray;
+    margin-left: 113px;
+    height: 118%;
+    width: 22%;
+    background-color:transparent;
+    float: left;
+   border: 0px solid black;
+}
+
+.The_Bake_Shop_division{
+    border: 0.01px solid whitesmoke;
+    box-shadow: 2px 3px gray;
+    height:241px;
+    width: 794px;
+    float: left;
+    margin-left:6%;
+    border: radius 2%;
+    margin-top: 34px;
+}
+
+.The_Big_Chill_Bakery_division{
+    border: 0.01px solid whitesmoke;
+    box-shadow: 2px 3px gray;
+    height:241px;
+    width: 794px;
+    float: left;
+    margin-left:2%;
+    border: radius 2%;
+    margin-top: 34px;
+}
+
+#Logo_division{
+    margin: auto;
+    background-color: red;
+    height: 80px;
+    width: 100%;
+}
+
+#Logo_text{
+    text-align: center;
+   background-color:white;
+   color: red;
+   height: 52px;
+   width: 52px;
+   border-radius: 100%;
+   margin-left: 6%;
+   margin-bottom: -30px;
+}
+
+#buttons_division{
+    margin-right: 35%;
+    margin-top: 3%;
+    float: right;
+    border: darkblue 10px;
+    border-radius: 30%;
+}
+
+
+.pagination{
+    display:inline-block;
+    padding-left:0;
+    margin:20px 0;
+    border-radius: 30%;
+}
+.pagination>li{
+    display: inline;
+    border-radius: 30%;
+}
+.pagination>li>a,.pagination>li>span{
+    position:relative;
+    float:left;
+    padding:4px 8px;
+    margin-left:5px;
+    line-height:1;
+    color:#337ab7;
+    text-decoration:none;
+    background-color:#fff;
+    border:0.01px solid rgb(76, 84, 153);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px rgb(59, 65, 124);
+}
+.pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover{
+    z-index:2;
+    color:#eee;
+    background-color:rgb(95, 104, 231);
+    border-color:#ddd;
+    border-radius: 30%;
+}
